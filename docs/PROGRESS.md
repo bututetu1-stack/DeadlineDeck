@@ -8,18 +8,25 @@
 - **チャットタイトル**：開発_部員カードローグライク_2026-09-25
 - **セッションキー**：2026-09-25_開発_01
 - **作品名（仮）**：デッドライン・デッキ
-- **リポジトリ**：（GitHub の URL を記入）
-- **Unity バージョン**：（インストールした 6000.x.x を記入）
+- **リポジトリ**：https://github.com/bututetu1-stack/DeadlineDeck
+- **Unity バージョン**：6000.3.22f1
 
 ## 現在地
 
-- Phase：0（環境構築）
-- 状態：仕様書一式を作成済み。Unity プロジェクトはまだ作っていない
+- Phase：1（Unity と C# に慣れる）開始前
+- 状態：Phase 0 完了（Unity プロジェクト作成・Force Text / Visible Meta Files 設定済み・最初のコミット済み）。Phase 1 の計画を作成した
 
 ## 次にやること
 
-1. `README_最初に読む.md` に沿って環境構築（Phase 0）
-2. Claude Code で Phase 1 を開始
+Phase 1 のステップ計画（完了したら [x] にする）
+
+- [ ] Step 1：Unity の画面の歩き方 ＋ 初めてのスクリプト（`Debug.Log` で Console に表示）
+- [ ] Step 2：変数・メソッド・`[SerializeField]`（HP を持たせ、ダメージを Console で確認）
+- [ ] Step 3：画面に文字を出す（Canvas・TextMeshPro・日本語フォント Noto Sans JP）
+- [ ] Step 4：ボタンを押すと HP が減る（Button の OnClick とテキスト更新）
+- [ ] Step 5：if 文で「撃破！」＋ リセット（Phase 1 完了条件の達成・コミット）
+
+練習用スクリプトは `Assets/Scripts/Practice/` に置く（Phase 1 専用の練習場所）。
 
 ## 未決定事項・メモ
 
@@ -32,3 +39,4 @@
 | 日付 | Phase | やったこと | 次回 |
 |---|---|---|---|
 | 2026-09-25 | 0 | 仕様書・ロードマップ作成 | 環境構築 |
+| 2026-09-24 | 1 | 仕様書を読み込み、Phase 1 を 5 ステップに分けて計画 | Step 1 から開始 |
