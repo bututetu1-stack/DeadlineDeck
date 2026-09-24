@@ -29,6 +29,11 @@ Phase 1 のステップ計画（完了したら [x] にする）
 
 練習用スクリプトは `Assets/Scripts/Practice/` に置く（Phase 1 専用の練習場所）。
 
+**次回の始め方**
+1. PowerShell で `git pull`（前回セッション終了時の記録更新を取り込む）
+2. Claude Code に「docs/PROGRESS.md を読んで、前回の続きから始めてください」
+3. Step 2 の予定：`HelloDeadline` の「8」を変数にするところから入り、敵の HP・ダメージを `[SerializeField]` で Inspector から変えられるようにする
+
 ## 未決定事項・メモ
 
 - 作品名は仮。部員に投票してもらうのもアリ
