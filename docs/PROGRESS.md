@@ -13,14 +13,15 @@
 
 ## 現在地
 
-- Phase：1（Unity と C# に慣れる）開始前
-- 状態：Phase 0 完了（Unity プロジェクト作成・Force Text / Visible Meta Files 設定済み・最初のコミット済み）。Phase 1 の計画を作成した
+- Phase：1（Unity と C# に慣れる）Step 1 完了 → 次は Step 2
+- 状態：SampleScene に空の GameObject「Practice」を置き、`HelloDeadline` を付けて Console 出力を確認済み。開発者が自分でコミット＆プッシュできた
+- 作業ブランチ：`claude/epic-ride-sqx1jy`（開発者の PC でもこのブランチで作業中。取り込みは `git pull`）
 
 ## 次にやること
 
 Phase 1 のステップ計画（完了したら [x] にする）
 
-- [ ] Step 1：Unity の画面の歩き方 ＋ 初めてのスクリプト（`Debug.Log` で Console に表示）← **実施中**：`HelloDeadline.cs` 作成済み。開発者の動作確認と小課題（締切メッセージを 1 行足す）待ち
+- [x] Step 1：Unity の画面の歩き方 ＋ 初めてのスクリプト（`Debug.Log` で Console に表示）— 小課題「締切まであと8ターン」も完了
 - [ ] Step 2：変数・メソッド・`[SerializeField]`（HP を持たせ、ダメージを Console で確認）
 - [ ] Step 3：画面に文字を出す（Canvas・TextMeshPro・日本語フォント Noto Sans JP）
 - [ ] Step 4：ボタンを押すと HP が減る（Button の OnClick とテキスト更新）
@@ -41,3 +42,4 @@ Phase 1 のステップ計画（完了したら [x] にする）
 | 2026-09-25 | 0 | 仕様書・ロードマップ作成 | 環境構築 |
 | 2026-09-24 | 1 | 仕様書を読み込み、Phase 1 を 5 ステップに分けて計画 | Step 1 から開始 |
 | 2026-09-24 | 1 | Step 1：`Assets/Scripts/Practice/HelloDeadline.cs` を作成（Start と Debug.Log） | 動作確認・小課題 → Step 2 |
+| 2026-09-24 | 1 | Step 1 完了。小課題で Debug.Log を自力で 1 行追加、初めて自分でコミット＆プッシュ | Step 2（変数・`[SerializeField]`） |
