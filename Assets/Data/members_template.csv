@@ -1,0 +1,4 @@
+id,memberName,cardName,cost,type,tags,effects,passiveName,condition,passiveEffects,damageMultiplier,flavor,consent
+m_yoru,よる,夜型プログラマ,1,Attack,CSharp;LateNight,Damage:5:SingleEnemy,締切駆動,DeadlineNear:3,,2,まだ慌てる時間じゃない,yes
+m_saba,さば,鯖缶の守護者,1,Skill,Infra,Block:8:Self,心配性,HpBelowHalf:0,Block:4:Self,1,本番環境には触るな,yes
+m_debug,でば,デバッガー,1,Attack,CSharp;Infra,Damage:3:SingleEnemy:2,,None:0,,1,再現手順を書いて,yes
