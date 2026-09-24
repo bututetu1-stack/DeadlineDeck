@@ -20,7 +20,7 @@
 
 Phase 1 のステップ計画（完了したら [x] にする）
 
-- [ ] Step 1：Unity の画面の歩き方 ＋ 初めてのスクリプト（`Debug.Log` で Console に表示）
+- [ ] Step 1：Unity の画面の歩き方 ＋ 初めてのスクリプト（`Debug.Log` で Console に表示）← **実施中**：`HelloDeadline.cs` 作成済み。開発者の動作確認と小課題（締切メッセージを 1 行足す）待ち
 - [ ] Step 2：変数・メソッド・`[SerializeField]`（HP を持たせ、ダメージを Console で確認）
 - [ ] Step 3：画面に文字を出す（Canvas・TextMeshPro・日本語フォント Noto Sans JP）
 - [ ] Step 4：ボタンを押すと HP が減る（Button の OnClick とテキスト更新）
@@ -40,3 +40,4 @@ Phase 1 のステップ計画（完了したら [x] にする）
 |---|---|---|---|
 | 2026-09-25 | 0 | 仕様書・ロードマップ作成 | 環境構築 |
 | 2026-09-24 | 1 | 仕様書を読み込み、Phase 1 を 5 ステップに分けて計画 | Step 1 から開始 |
+| 2026-09-24 | 1 | Step 1：`Assets/Scripts/Practice/HelloDeadline.cs` を作成（Start と Debug.Log） | 動作確認・小課題 → Step 2 |
