@@ -20,6 +20,8 @@ namespace DeadlineDeck
             // gameObject.name：このスクリプトを貼り付けた GameObject の名前
             // 「+」で文字どうしをつなげられる
             Debug.Log("このスクリプトは「" + gameObject.name + "」に付いています");
+
+            Debug.Log("締切まであと8ターン");
         }
     }
 }
