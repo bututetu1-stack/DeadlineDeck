@@ -8,18 +8,31 @@
 - **チャットタイトル**：開発_部員カードローグライク_2026-09-25
 - **セッションキー**：2026-09-25_開発_01
 - **作品名（仮）**：デッドライン・デッキ
-- **リポジトリ**：（GitHub の URL を記入）
-- **Unity バージョン**：（インストールした 6000.x.x を記入）
+- **リポジトリ**：https://github.com/bututetu1-stack/DeadlineDeck
+- **Unity バージョン**：6000.3.22f1
 
 ## 現在地
 
-- Phase：0（環境構築）
-- 状態：仕様書一式を作成済み。Unity プロジェクトはまだ作っていない
+- Phase：1（Unity と C# に慣れる）Step 1 完了 → 次は Step 2
+- 状態：SampleScene に空の GameObject「Practice」を置き、`HelloDeadline` を付けて Console 出力を確認済み。開発者が自分でコミット＆プッシュできた
+- 作業ブランチ：`claude/epic-ride-sqx1jy`（開発者の PC でもこのブランチで作業中。取り込みは `git pull`）
 
 ## 次にやること
 
-1. `README_最初に読む.md` に沿って環境構築（Phase 0）
-2. Claude Code で Phase 1 を開始
+Phase 1 のステップ計画（完了したら [x] にする）
+
+- [x] Step 1：Unity の画面の歩き方 ＋ 初めてのスクリプト（`Debug.Log` で Console に表示）— 小課題「締切まであと8ターン」も完了
+- [ ] Step 2：変数・メソッド・`[SerializeField]`（HP を持たせ、ダメージを Console で確認）
+- [ ] Step 3：画面に文字を出す（Canvas・TextMeshPro・日本語フォント Noto Sans JP）
+- [ ] Step 4：ボタンを押すと HP が減る（Button の OnClick とテキスト更新）
+- [ ] Step 5：if 文で「撃破！」＋ リセット（Phase 1 完了条件の達成・コミット）
+
+練習用スクリプトは `Assets/Scripts/Practice/` に置く（Phase 1 専用の練習場所）。
+
+**次回の始め方**
+1. PowerShell で `git pull`（前回セッション終了時の記録更新を取り込む）
+2. Claude Code に「docs/PROGRESS.md を読んで、前回の続きから始めてください」
+3. Step 2 の予定：`HelloDeadline` の「8」を変数にするところから入り、敵の HP・ダメージを `[SerializeField]` で Inspector から変えられるようにする
 
 ## 未決定事項・メモ
 
@@ -32,3 +45,6 @@
 | 日付 | Phase | やったこと | 次回 |
 |---|---|---|---|
 | 2026-09-25 | 0 | 仕様書・ロードマップ作成 | 環境構築 |
+| 2026-09-24 | 1 | 仕様書を読み込み、Phase 1 を 5 ステップに分けて計画 | Step 1 から開始 |
+| 2026-09-24 | 1 | Step 1：`Assets/Scripts/Practice/HelloDeadline.cs` を作成（Start と Debug.Log） | 動作確認・小課題 → Step 2 |
+| 2026-09-24 | 1 | Step 1 完了。小課題で Debug.Log を自力で 1 行追加、初めて自分でコミット＆プッシュ | Step 2（変数・`[SerializeField]`） |
